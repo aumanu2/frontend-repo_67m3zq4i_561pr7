@@ -3,7 +3,78 @@
 > vite
 
 
-  VITE v5.4.20  ready in 341 ms
+  VITE v5.4.20  ready in 330 ms
 
   ➜  Local:   http://localhost:3000/
   ➜  Network: http://172.20.0.127:3000/
+6:26:32 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:56:1273: ERROR: Syntax error "n"
+6:26:32 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:56:1273: ERROR: Syntax error "n"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:56:1273
+  
+  Syntax error "n"
+  54 |    const seedSampleProduct = async () => {
+  55 |      try {
+  56 |        const svg = encodeURIComponent(`<?xml version='1.0' encoding='UTF-8'?>\n<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 720'>\n  <defs>\n    <linearGradient id='bg' x1='0' x2='1'>\n      <stop offset='0%' stop-color='#fff1f2'/>\n      <stop offset='100%' stop-color='#ecfeff'/>\n    </linearGradient>\n    <radialGradient id='orb' cx='50%' cy='40%' r='60%'>\n      <stop offset='0%' stop-color='#ffffff' stop-opacity='0.95'/>\n      <stop offset='100%' stop-color='#ffffff' stop-opacity='0.6'/>\n    </radialGradient>\n  </defs>\n  <rect width='960' height='720' fill='url(#bg)'/>\n  <g transform='translate(480 360)'>\n    <circle r='220' fill='url(#orb)'/>\n    <g transform='translate(-180 -120) rotate(-6)'>\n      <rect x='0' y='0' rx='16' width='360' height='240' fill='#fef3c7' stroke='#f59e0b' stroke-width='3'/>\n      <path d='M20 40 L340 40 M20 90 L340 90 M20 140 L340 140 M20 190 L220 190' stroke='#b45309' stroke-width='3' stroke-linecap='round'/>\n    </g>\n    <text x='0' y='160' text-anchor='middle' font-family='Georgia, serif' font-size='36' fill='#0f172a'>Handwoven Cotton Scarf</text>\n    <text x='0' y='198' text-anchor='middle' font-family='Georgia, serif' font-size='22' fill='#334155'>VanVastra · Textiles</text>\n  </g>\n</svg>`)\n      const sample = {
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+  57 |          title: 'Handwoven Cotton Scarf',
+  58 |          description:
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+6:27:02 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:56:1273: ERROR: Syntax error "n"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:56:1273
+  
+  Syntax error "n"
+  54 |    const seedSampleProduct = async () => {
+  55 |      try {
+  56 |        const svg = encodeURIComponent(`<?xml version='1.0' encoding='UTF-8'?>\n<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 720'>\n  <defs>\n    <linearGradient id='bg' x1='0' x2='1'>\n      <stop offset='0%' stop-color='#fff1f2'/>\n      <stop offset='100%' stop-color='#ecfeff'/>\n    </linearGradient>\n    <radialGradient id='orb' cx='50%' cy='40%' r='60%'>\n      <stop offset='0%' stop-color='#ffffff' stop-opacity='0.95'/>\n      <stop offset='100%' stop-color='#ffffff' stop-opacity='0.6'/>\n    </radialGradient>\n  </defs>\n  <rect width='960' height='720' fill='url(#bg)'/>\n  <g transform='translate(480 360)'>\n    <circle r='220' fill='url(#orb)'/>\n    <g transform='translate(-180 -120) rotate(-6)'>\n      <rect x='0' y='0' rx='16' width='360' height='240' fill='#fef3c7' stroke='#f59e0b' stroke-width='3'/>\n      <path d='M20 40 L340 40 M20 90 L340 90 M20 140 L340 140 M20 190 L220 190' stroke='#b45309' stroke-width='3' stroke-linecap='round'/>\n    </g>\n    <text x='0' y='160' text-anchor='middle' font-family='Georgia, serif' font-size='36' fill='#0f172a'>Handwoven Cotton Scarf</text>\n    <text x='0' y='198' text-anchor='middle' font-family='Georgia, serif' font-size='22' fill='#334155'>VanVastra · Textiles</text>\n  </g>\n</svg>`)\n      const sample = {
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+  57 |          title: 'Handwoven Cotton Scarf',
+  58 |          description:
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
+6:27:34 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/App.jsx:56:1273: ERROR: Syntax error "n"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/App.jsx:56:1273
+  
+  Syntax error "n"
+  54 |    const seedSampleProduct = async () => {
+  55 |      try {
+  56 |        const svg = encodeURIComponent(`<?xml version='1.0' encoding='UTF-8'?>\n<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 960 720'>\n  <defs>\n    <linearGradient id='bg' x1='0' x2='1'>\n      <stop offset='0%' stop-color='#fff1f2'/>\n      <stop offset='100%' stop-color='#ecfeff'/>\n    </linearGradient>\n    <radialGradient id='orb' cx='50%' cy='40%' r='60%'>\n      <stop offset='0%' stop-color='#ffffff' stop-opacity='0.95'/>\n      <stop offset='100%' stop-color='#ffffff' stop-opacity='0.6'/>\n    </radialGradient>\n  </defs>\n  <rect width='960' height='720' fill='url(#bg)'/>\n  <g transform='translate(480 360)'>\n    <circle r='220' fill='url(#orb)'/>\n    <g transform='translate(-180 -120) rotate(-6)'>\n      <rect x='0' y='0' rx='16' width='360' height='240' fill='#fef3c7' stroke='#f59e0b' stroke-width='3'/>\n      <path d='M20 40 L340 40 M20 90 L340 90 M20 140 L340 140 M20 190 L220 190' stroke='#b45309' stroke-width='3' stroke-linecap='round'/>\n    </g>\n    <text x='0' y='160' text-anchor='middle' font-family='Georgia, serif' font-size='36' fill='#0f172a'>Handwoven Cotton Scarf</text>\n    <text x='0' y='198' text-anchor='middle' font-family='Georgia, serif' font-size='22' fill='#334155'>VanVastra · Textiles</text>\n  </g>\n</svg>`)\n      const sample = {
+     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ^
+  57 |          title: 'Handwoven Cotton Scarf',
+  58 |          description:
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
